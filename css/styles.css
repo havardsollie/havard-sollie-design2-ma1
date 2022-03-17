@@ -3,6 +3,7 @@ body {
   opacity: 1;
   background-image: radial-gradient(#FFC400 2px, #000000 2px);
   background-size: 40px 40px;
+  font-family: Helvetica, sans-serif;
 }
 
 header {
@@ -25,7 +26,8 @@ h2 {
 }
 
 h3 {
-  text-decoration: underline 5px dotted darkblue;
+  text-decoration: underline 5px dotted #FFC400;
+  font-family: 'Unica One', cursive;
 }
 
 main {
@@ -61,7 +63,7 @@ li a {
 }
 
 li.active {
-  text-decoration: underline 5px dotted darkblue;
+  text-decoration: underline 5px dotted #aba6d2;
 }
 
 li a:hover {
@@ -73,6 +75,11 @@ li a:hover {
   display: flex;
   justify-content: space-between;
   padding: 10px;
+}
+
+.card {
+  padding: 15px;
+  width: 300px;
 }
 
 .container-two {
