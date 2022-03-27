@@ -1,7 +1,7 @@
 body {
   background-color: #000000;
   opacity: 1;
-  background-image: radial-gradient(#FFC400 2px, #000000 2px);
+  background-image: radial-gradient(#FFC400 1px, #000000 1px);
   background-size: 40px 40px;
   font-family: Helvetica, sans-serif;
 }
