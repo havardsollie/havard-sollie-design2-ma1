@@ -31,6 +31,26 @@ h3 {
   font-family: 'Unica One', cursive;
 }
 
+h4 {
+  text-align: center;
+  color: #FFC400;
+  background: black;
+}
+
+h5 {
+  padding: 30px;
+  border: 5px dotted #FFC400;
+  width: 50px;
+  height: 10px;
+  text-align: center;
+  font-family: 'Goudy Bookletter 1911', serif;
+}
+
+h5:hover {
+  background: #aba6d2;
+  cursor: pointer;
+}
+
 main {
   background-color:#ffffff;
   border: 10px solid #aba6d2;
@@ -92,12 +112,6 @@ li a:hover {
   width: 600px;
   height: 300px;
   margin: 0 auto;
-}
-
-h4 {
-  text-align: center;
-  color: #FFC400;
-  background: black;
 }
 
 hr {
